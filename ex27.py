@@ -1,0 +1,40 @@
+# Truth Tables:
+print("\n------------ NOT ------------")
+print("not False = {}".format(not False))
+print("not True = {}".format(not True))
+
+print("\n------------ OR ------------")
+print("True or False = {}".format(True or False))
+print("True or True = {}".format(True or True))
+print("False or True = {}".format(False or True))
+print("False or False = {}".format(False or False))
+
+print("\n------------ AND ------------")
+print("True and False = {}".format(True and False))
+print("True and True = {}".format(True and True))
+print("False and True = {}".format(False and True))
+print("False and False = {}".format(False and False))
+
+print("\n------------ NOT OR ------------")
+print("not(True or False) = {}".format(not(True or False)))
+print("not(True or True) = {}".format(not(True or True)))
+print("not(False or True) = {}".format(not(False or True)))
+print("not(False or False) = {}".format(not(False or False)))
+
+print("\n------------ NOT AND ------------")
+print("not(True and False) = {}".format(not(True and False)))
+print("not(True and True) = {}".format(not(True and True)))
+print("not(False and True) = {}".format(not(False and True)))
+print("not(False and False) = {}".format(not(False and False)))
+
+print("\n------------ != ------------")
+print("{} != {} ----> {}".format(1, 0, 1 != 0))
+print("{} != {} ----> {}".format(1, 1, 1 != 1))
+print("{} != {} ----> {}".format(0, 1, 0 != 1))
+print("{} != {} ----> {}".format(0, 0, 0 != 0))
+
+print("\n------------ == ------------")
+print("{} == {} ----> {}".format(1, 0, 1 == 0))
+print("{} == {} ----> {}".format(1, 1, 1 == 1))
+print("{} == {} ----> {}".format(0, 1, 0 == 1))
+print("{} == {} ----> {}".format(0, 0, 0 == 0))
